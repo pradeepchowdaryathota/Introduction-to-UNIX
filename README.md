@@ -35,7 +35,7 @@ touch "data_summary.txt"
 
 step 6 : appending the information of the files to the created file.
 
-ls -l "file_name" >> data_summary.txt
+ls -l >> data_summary.txt
 
 step 7 : appending the first 10 lines of every chromosomal file to data_summary.txt.
 
