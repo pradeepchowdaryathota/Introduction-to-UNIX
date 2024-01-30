@@ -15,19 +15,31 @@ EXECUTION :
 
 step 1 : use cd ~ command to navigate to the home directory
 
-step 2 : command "mkdir" to create a new directory that is "Informatics_573" in here and command "cd Informatics_573" to navigate to that directory.
+step 2 : create a new directory that is "Informatics_573" 
+:mkdir Informatics_573
+"cd Informatics_573" to navigate to that directory.
 
 step 3 : Download all secondary assemblies for human chromosome 1 from University of California, Santa Cruz (UCSC) Genome browser (all chromosome 1 assemblies except “chr1.fa.gz”) 
 
-for this step we need the package "wget" and the command used is wget "url" of the required files from the browser
+for this step we need the package "wget" 
 
-step 4 : we require "gunzip" package to unzip the downloaded zip files and the syntax is gunzip "file_name"
+wget "url"
 
-step 5 : creating the empty file "data_summary.txt". syntax used is touch "data_summary.txt"
+step 4 : we require "gunzip" package to unzip the downloaded zip files
 
-step 6 : appending the information of the files to the created file. ls -l "file_name" >> data_summary.txt
+gunzip "file_name"
 
-step 7 : appending the first 10 lines of every chromosomal file to data_summary.txt. we use command "head" for that.
+step 5 : creating the empty file "data_summary.txt".
+
+touch "data_summary.txt"
+
+step 6 : appending the information of the files to the created file.
+
+ls -l "file_name" >> data_summary.txt
+
+step 7 : appending the first 10 lines of every chromosomal file to data_summary.txt.
+
+
 
 step 8 :Append the name of assembly as well as the total number of lines included in that assembly to “data_summary.txt”.
 
