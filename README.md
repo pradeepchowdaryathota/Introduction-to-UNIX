@@ -1,3 +1,14 @@
+INTRODUCTION TO UNIX
+
+NAME : VENKATA PRADEEP KUMAR ATHOTA
+
+PROGRAMMING LANGUAGE : UNIX
+
+DATE : 30 JAN 2024
+
+DESCRIPTION : This repository is created to show the process how to download the required chromosomes data from the UCSC genome browser by using UNIX. The end result of this 
+is required chromosomal data appended to the required destination file.
+
 navigate to user's home directory
 ```
 cd ~
