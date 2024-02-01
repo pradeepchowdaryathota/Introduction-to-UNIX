@@ -23,3 +23,6 @@ head chr1_*>>data_summary.txt
 # Append the name of assembly as well as the total number of lines included in that assembly to “data_summary.txt”
 wc chr1_*>>data_summary.txt
 cat data_summary.txt
+
+# chmod execution permission
+chmod +x pradeep.sh
