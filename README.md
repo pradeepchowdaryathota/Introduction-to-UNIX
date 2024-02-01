@@ -22,9 +22,14 @@ create directory Informatics_573 and naviagte to it
 mkdir Informatics_573
 cd Informatics_573
 ```
-Download all secondary assemblies for human chromosome 1 from University of California, Santa Cruz (UCSC) Genome browser (all chromosome 1 assemblies except “chr1.fa.gz”) by using some flags we can download all at once
+Download all secondary assemblies for human chromosome 1 from University of California, Santa Cruz (UCSC) Genome browser (all chromosome 1 assemblies except “chr1.fa.gz”)
 ```
-wget -r -np -nd -A 'chr1_*' https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/
+wget <url>
+```
+
+ we can download by using the above step for all chromosomal assemblies or there is an alterante step in which we can download all at once by using some flags.
+```
+wget -r -np -nd -A 'chr1_*' <url>
 ```
 unzip all the downloaded files
 ```
