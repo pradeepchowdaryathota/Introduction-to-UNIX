@@ -41,15 +41,15 @@ touch data_summary.txt
 ```
 Append a list of the all detailed information (including at least file name, size, and permissions) to “data_summary.txt”
 ```
-ls -l >>> data_summary.txt
+ls -l >> data_summary.txt
 ```
 Append the first 10 lines of each of the chromosome 1 assemblies to “data_summary.txt”
 ```
-head chr1_* >>> data_summary.txt
+head chr1_* >> data_summary.txt
 ```
 Append the name of assembly as well as the total number of lines included in that assembly to “data_summary.txt”
 ```
-wc chr1_*>>> data_summary.txt
+wc chr1_*>> data_summary.txt
 cat data_summary.txt
 ```
 
