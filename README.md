@@ -52,3 +52,8 @@ Append the name of assembly as well as the total number of lines included in tha
 wc chr1_*>>> data_summary.txt
 cat data_summary.txt
 ```
+
+Execution permission
+```
+chmod +x <filename>
+```
