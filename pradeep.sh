@@ -24,5 +24,3 @@ head chr1_*>>data_summary.txt
 wc chr1_*>>data_summary.txt
 cat data_summary.txt
 
-# chmod execution permission
-chmod +x pradeep.sh
