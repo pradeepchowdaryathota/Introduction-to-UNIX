@@ -53,7 +53,3 @@ wc chr1_*>>> data_summary.txt
 cat data_summary.txt
 ```
 
-Execution permission
-```
-chmod +x <filename>
-```
